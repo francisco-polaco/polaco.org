@@ -1,0 +1,4 @@
+baseURL: https://polaco.org/
+languageCode: en-us
+title: polaco.org
+theme: ["PaperMod"]
