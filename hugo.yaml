@@ -7,20 +7,20 @@ theme: ["PaperMod"]
 params:
   profileMode:
     enabled: true
-    # title: "<Title>" # optional default will be site title
-    # subtitle: "This is subtitle"
-    # imageUrl: "<image link>" # optional
+    title: "Francisco Polaco Santos" # optional default will be site title
+    subtitle: "Engineer at heart, leading with purpose."
+    imageUrl: "https://media.licdn.com/dms/image/v2/C4E03AQElbZ6aJ_lKQA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1599938013316?e=1743033600&v=beta&t=305ems93SveYU3vtJhwBq4XFP-6G2WcluvsoQbczBPY" # optional
     # imageTitle: "<title of image as alt>" # optional
     # imageWidth: 120 # custom size
     # imageHeight: 120 # custom size
-    buttons:
+    # buttons:
       # - name: Archive
       #   url: "/archive"
-      - name: Github
-        url: "https://github.com/francisco-polaco"
 
-#  socialIcons: # optional
-#    - name: "<platform>"
-#      url: "<link>"
-#    - name: "<platform 2>"
-#      url: "<link2>"
+  socialIcons: # optional
+   - name: LinkedIn
+     url: https://www.linkedin.com/in/francisco-polaco-santos
+   - name: GitHub
+     url: https://github.com/francisco-polaco
+   - name: Email
+     url: mailto:francisco@polaco.org
