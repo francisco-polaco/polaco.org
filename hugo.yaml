@@ -5,6 +5,8 @@ theme: ["PaperMod"]
 
 # configuration for profile mode
 params:
+  env: production
+  
   profileMode:
     enabled: true
     title: "Francisco Polaco Santos" # optional default will be site title
