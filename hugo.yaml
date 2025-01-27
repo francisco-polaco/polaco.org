@@ -10,9 +10,9 @@ params:
   profileMode:
     enabled: true
     title: "Francisco Polaco Santos" # optional default will be site title
-    subtitle: "Engineer at heart, leading with purpose."
+    subtitle: "Engineer at heart, leading with purpose. Engineering Manager @ [Human Ready](https://humanready.io/)"
     imageUrl: "https://media.licdn.com/dms/image/v2/C4E03AQElbZ6aJ_lKQA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1599938013316?e=1743033600&v=beta&t=305ems93SveYU3vtJhwBq4XFP-6G2WcluvsoQbczBPY" # optional
-    # imageTitle: "<title of image as alt>" # optional
+    imageTitle: "Francisco" # optional
     # imageWidth: 120 # custom size
     # imageHeight: 120 # custom size
     # buttons:
