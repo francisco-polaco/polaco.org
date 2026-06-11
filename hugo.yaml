@@ -18,8 +18,8 @@ params:
       showOnScrollUp: true
     menus:
       disableAbout: false
-      disableExperience: true
-      disableEducation: true
+      disableExperience: false
+      disableEducation: false
       disableProjects: false
       disableAchievements: true
       disableContact: true
@@ -62,10 +62,45 @@ params:
       enable: false
 
   experience:
-    enable: false
+    enable: true
+    title: "Experience"
+    items:
+      - company: "Human Ready"
+        companyUrl: "https://humanready.io/"
+        jobs:
+          - name: "Engineering Manager"
+            date: "Apr 2024 - Present"
+            content: "Leading the product engineering team and project teams."
+          - name: "Senior Software Engineer"
+            date: "Apr 2022 - Mar 2024"
+            content: "Built highly scalable analytics products working closely with product and engineering. Stack: FastAPI, React, Docker. First steps leading technical projects and mentoring junior engineers."
+
+      - company: "Feedzai"
+        companyUrl: "https://feedzai.com/"
+        jobs:
+          - name: "Software Engineer"
+            date: "Oct 2018 - Mar 2022"
+            content: "Worked on Feedzai Genome (link analysis for financial crime detection) and Case Manager (transaction alert management). Led key parts of a major Genome redesign. Completed a CS rotation as a delivery engineer, gaining direct client-facing exposure."
 
   education:
-    enable: false
+    enable: true
+    title: "Education"
+    items:
+      - title: "Master's Degree, Computer Science and Engineering"
+        school:
+          name: "Instituto Superior Técnico"
+          url: "https://tecnico.ulisboa.pt/"
+        date: "2016 - 2018"
+        GPA: "16 / 20"
+        content: "Focused on Distributed Systems and Cybersecurity. Thesis: PRIME — a probabilistic membership protocol for large-scale systems."
+
+      - title: "Bachelor's Degree, Computer Engineering"
+        school:
+          name: "Instituto Superior Técnico"
+          url: "https://tecnico.ulisboa.pt/"
+        date: "2013 - 2016"
+        GPA: "16 / 20"
+        content: "Core curriculum: Computer Networks, Distributed Systems, Software Engineering, AI, Compilers, Databases."
 
   achievements:
     enable: false
