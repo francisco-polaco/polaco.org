@@ -4,6 +4,7 @@ title: "Francisco Santos"
 theme: hugo-profile
 
 params:
+  favicon: "/favicon.ico"
   animate: true
   description: "Francisco Santos — Engineering Manager at Human Ready. Engineer at heart, leading with purpose."
   images:
