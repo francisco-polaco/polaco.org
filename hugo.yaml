@@ -1,6 +1,6 @@
 baseURL: "https://polaco.org/"
 locale: "en-us"
-title: "Francisco Santos"
+title: "Francisco Polaco Santos"
 theme: hugo-profile
 
 params:
@@ -12,7 +12,7 @@ params:
 
   navbar:
     align: ms-auto
-    brandName: "polaco.org"
+    brandName: "Polaco"
     disableSearch: true
     stickyNavBar:
       enable: true
@@ -28,7 +28,7 @@ params:
   hero:
     enable: true
     intro: "Hi, I'm"
-    title: "Francisco Santos."
+    title: "Francisco Polaco Santos."
     subtitle: "Engineer at heart, leading with purpose."
     content: "Engineering Manager @ [Human Ready](https://humanready.io/)"
     image: "https://avatars.githubusercontent.com/u/5599025?v=4"
