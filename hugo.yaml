@@ -1,28 +1,103 @@
-baseURL: https://polaco.org/
-languageCode: en-us
-title: polaco.org
-theme: ["PaperMod"]
+baseURL: "https://polaco.org/"
+locale: "en-us"
+title: "Francisco Santos"
+theme: hugo-profile
 
-# configuration for profile mode
 params:
-  env: production
-  
-  profileMode:
-    enabled: true
-    title: "Francisco Polaco Santos" # optional default will be site title
-    subtitle: "Engineer at heart, leading with purpose. Engineering Manager @ [Human Ready](https://humanready.io/)"
-    imageUrl: "https://avatars.githubusercontent.com/u/5599025?v=4" # optional
-    imageTitle: "Francisco" # optional
-    # imageWidth: 120 # custom size
-    # imageHeight: 120 # custom size
-    # buttons:
-      # - name: Archive
-      #   url: "/archive"
+  animate: true
+  description: "Francisco Santos — Engineering Manager at Human Ready. Engineer at heart, leading with purpose."
+  images:
+    - /og-image.jpg
 
-  socialIcons: # optional
-   - name: LinkedIn
-     url: https://www.linkedin.com/in/francisco-polaco-santos
-   - name: GitHub
-     url: https://github.com/francisco-polaco
-   - name: Email
-     url: mailto:francisco@polaco.org
+  navbar:
+    align: ms-auto
+    brandName: "polaco.org"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: false
+      disableAchievements: true
+      disableContact: true
+
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Francisco Santos."
+    subtitle: "Engineer at heart, leading with purpose."
+    content: "Engineering Manager @ [Human Ready](https://humanready.io/)"
+    image: "https://avatars.githubusercontent.com/u/5599025?v=4"
+    bottomImage:
+      enable: false
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/francisco-polaco-santos"
+        - icon: fab fa-github
+          url: "https://github.com/francisco-polaco"
+        - icon: fas fa-envelope
+          url: "mailto:francisco@polaco.org"
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "https://avatars.githubusercontent.com/u/5599025?v=4"
+    content: |-
+      I'm an engineer turned engineering manager, currently leading teams at [Human Ready](https://humanready.io/). I've spent my career building software and the people around it — I care as much about how teams work as about the code they ship.
+
+      *(More about my journey coming soon.)*
+
+      ---
+
+      **Values & Philosophy**
+
+      *(Coming soon — what I believe about engineering, leadership, and people.)*
+    skills:
+      enable: false
+
+  experience:
+    enable: false
+
+  education:
+    enable: false
+
+  achievements:
+    enable: false
+
+  projects:
+    enable: true
+    title: "Things I've built"
+    items:
+      - title: "Markdown TTS Reader"
+        content: "Reads markdown notes aloud. Built because I needed a way to go through notes hands-free in the car — no existing tool did exactly this."
+        featured:
+          name: "Open app"
+          link: "https://tts.polaco.org/"
+        links:
+          - icon: "fa fa-globe"
+            url: "https://tts.polaco.org/"
+
+      - title: "Compound Interest Calculator"
+        content: "A compound interest calculator with all the fields you actually need. Most calculators were missing something, so I prompted a better one."
+        featured:
+          name: "Open app"
+          link: "https://grow.polaco.org/"
+        links:
+          - icon: "fa fa-globe"
+            url: "https://grow.polaco.org/"
+
+  contact:
+    enable: false
+
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      github: "https://github.com/francisco-polaco"
+      linkedin: "https://www.linkedin.com/in/francisco-polaco-santos"
